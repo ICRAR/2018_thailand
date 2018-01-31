@@ -1,0 +1,7 @@
+astropy
+h5py
+mpi4py
+numpy
+pandas
+scipy
+torchvision
