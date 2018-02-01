@@ -1,13 +1,7 @@
 /*****************************************************************************
-* FILE: omp_dotprod_serial.c
+* FILE: omp_dot_product_serial.c
 * DESCRIPTION:
-*   This simple program is the serial version of a dot product and the
-*   first of four codes used to show the progression from a serial program to a
-*   hybrid MPI/OpenMP program.  The relevant codes are:
-*      - omp_dotprod_serial.c  - Serial version
-*      - omp_dotprod_openmp.c  - OpenMP only version
-*      - omp_dotprod_mpi.c     - MPI only version
-*      - omp_dotprod_hybrid.c  - Hybrid MPI and OpenMP version
+*   This simple program is the serial version of a dot product
 * SOURCE: Blaise Barney
 * LAST REVISED:  06/02/17 Blaise Barney
 ******************************************************************************/
