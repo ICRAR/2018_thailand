@@ -6,5 +6,5 @@ mpi4py
 numpy
 pandas
 scipy
-statsmodel
+statsmodels
 torchvision
