@@ -1,5 +1,7 @@
 astropy
 h5py
+ipython
+jupyter
 mpi4py
 numpy
 pandas
