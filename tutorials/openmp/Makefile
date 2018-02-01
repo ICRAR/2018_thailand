@@ -1,5 +1,5 @@
-CC=gcc-7
-#CC=gcc
+#CC=gcc-7
+CC=gcc
 FLAGS=-fopenmp
 
 omp_hello: omp_hello.c
