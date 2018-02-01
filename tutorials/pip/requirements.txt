@@ -2,6 +2,7 @@ astropy
 h5py
 ipython
 jupyter
+mathplotlib
 mpi4py
 numpy
 pandas
