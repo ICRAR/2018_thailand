@@ -1,5 +1,5 @@
 """
-mpiexec -n 4 python dotProductParallel_1.py 40000
+mpiexec -n 4 python dot_product_parallel.py 40000
 """
 from mpi4py import MPI
 import numpy
@@ -10,13 +10,13 @@ rank = comm.Get_rank()
 size = comm.Get_size()
 
 # read from command line
-n = int(sys.argv[1])    #length of vectors
+n = int(sys.argv[1])    # length of vectors
 
 # arbitrary example vectors, generated to be evenly divided by the number of
 # processes for convenience
 
-x = numpy.linspace(0,100,n) if comm.rank == 0 else None
-y = numpy.linspace(20,300,n) if comm.rank == 0 else None
+x = numpy.linspace(0, 100, n) if comm.rank == 0 else None
+y = numpy.linspace(20, 300, n) if comm.rank == 0 else None
 
 # initialize as numpy arrays
 dot = numpy.array([0.])

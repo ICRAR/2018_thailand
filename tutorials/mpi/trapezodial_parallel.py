@@ -1,5 +1,5 @@
 """
-mpiexec -n 4 python trapParallel_1.py 0.0 1.0 10000
+mpiexec -n 4 python trapezodial_parallel.py 0.0 1.0 10000
 """
 import numpy
 import sys
@@ -15,18 +15,20 @@ a = float(sys.argv[1])
 b = float(sys.argv[2])
 n = int(sys.argv[3])
 
+
 # we arbitrarily define a function to integrate
 def f(x):
     return x*x
+
 
 # this is the serial version of the trapezoidal rule
 # parallelization occurs by dividing the range among processes
 def integrate_range(a, b, n):
     integral = -(f(a) + f(b))/2.0
     # n+1 endpoints, but n trapazoids
-    for x in numpy.linspace(a,b,n+1):
+    for x in numpy.linspace(a, b, n+1):
         integral = integral + f(x)
-    integral = integral* (b-a)/n
+    integral = integral * (b-a)/n
     return integral
 
 
@@ -57,7 +59,7 @@ if rank == 0:
         total += recv_buffer[0]
 else:
     # all other process send their result
-    comm.Send(integral)
+    comm.Send(integral, 0)
 
 # root process prints results
 if comm.rank == 0:
