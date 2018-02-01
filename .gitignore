@@ -1,9 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
-/notes/2018 OpenMP.key
-/notes/MPI.key
-/notes/Machine Learning.key
-/notes/2018 Parallel Computing.key
 /2018_thailand.iml
 /.idea/
 /tutorials/openmp/omp_hello
 /tutorials/openmp/omp_mm
+/lectures/Machine Learning.key
+/lectures/2018 OpenMP.key
+/lectures/2018 Parallel Computing.key
