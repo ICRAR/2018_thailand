@@ -14,25 +14,14 @@ The detailed program is [here](https://confluence.icrar.uwa.edu.au/pages/viewpag
 
 ## Monday 
 
-### Session 1
-Welcome
-
-ICRAR & SKA Industry Involvement
-
-### Session 2
-
-Setting up Tutorial Environment
-
-HPC Introduction Lecture
-
-### Session 3
-
-HPC OpenMP and MPI Lecture
-
-### Session 4
-
-
 | Time      | Theme | Topic |
 | --- | --- | --- |
-| Monday am | HPC | Welcome |
+| Session 1 | Start | Welcome |
+|  |  | ICRAR & SKA Industry Involvement |
+| Session 2 | HPC | Setting up Tutorial Environment |
+|  |  | HPC Introduction Lecture|
+| Session 3 | | HPC OpenMP and MPI Lecture |
+| Session 4 | | HPC Tutorial |
+
+## Tuesday
 
