@@ -1,4 +1,5 @@
 astropy
+configobj
 h5py
 ipython
 jupyter
