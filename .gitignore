@@ -3,7 +3,8 @@
 /.idea/
 /tutorials/openmp/omp_hello
 /tutorials/openmp/omp_mm
-/lectures/Machine Learning.key
 /lectures/2018 OpenMP.key
 /lectures/2018 Parallel Computing.key
 /tutorials/install_virtualbox.key
+/lectures/2018 MPI.key
+/lectures/2018 Machine Learning.key
