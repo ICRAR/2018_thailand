@@ -27,11 +27,16 @@ All scripts include some help if the `-h` flag is used.
 An example:
 
 ```
+$> cd ~/ngas
 $> ./create_venv.sh /home/user/venvs/ngas
 $> source /home/user/venvs/ngas/bin/activate
 $> ./build.sh -d
 $> ./prepare_ngas_root.sh /home/user/NGAS_ROOT
 ```
+
+*Make sure to read the output of the final script*.
+It will show you where the configuration file is generated,
+and how to run the server.
 
 # Running the server
 
