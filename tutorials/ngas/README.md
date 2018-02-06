@@ -6,6 +6,7 @@
  * [Coverage information](https://coveralls.io/github/ICRAR/ngas).
  * [Full documentation](https://ngas.readthedocs.io).
  * [Docker images](https://hub.docker.com/r/icrar/ngas).
+ * [Presentation](https://docs.google.com/presentation/d/1O5UUXLreCLtQtE7TJf7Lqt4IhUttyAhJELsDl_q9TQk/edit?usp=sharing)
 
 # Installation
 
