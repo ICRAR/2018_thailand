@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+
+import shutil
+import sys
+
+if len(sys.argv) < 2:
+    print("Usage: %s file_to_copy" % (sys.argv[0],))
+    sys.exit(1)
+
+fname = sys.argv[1]
+
+with open(fname, 'rb') as fin, open(fname + '.copy', 'wb') as fout:
+    shutil.copyfileobj(fin, fout)
+
+print("Copied %s into %s" % (fname, fname + '.copy'))

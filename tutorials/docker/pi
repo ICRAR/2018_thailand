@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+from decimal import Decimal, getcontext
+import sys
+
+if len(sys.argv) < 2:
+    print("Usage: %s number_of_digits" % (sys.argv[0],))
+    sys.exit(1)
+
+n = int(sys.argv[1])
+getcontext().prec = n
+print(sum(1 / Decimal(16)**k *
+          (Decimal(4) / (8 * k + 1) -
+           Decimal(2) / (8 * k + 4) -
+           Decimal(1) / (8 * k + 5) -
+           Decimal(1) / (8 * k + 6))
+          for k in range(n)))
